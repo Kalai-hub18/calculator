@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.container{
+    width: auto;
+    height: 100vh;
+    background-color: rgb(125, 125, 162);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+}
+
+.calculator-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.calculator-header h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+}
+.calculator{
+    padding: 20px;
+    background-color:rgb(206, 138, 175);
+    border-radius: 30px;
+
+    
+}
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 58%;
+    margin: 10px;
+    font-size: 25px;
+    color:black;
+    cursor: pointer;
+    
+
+
+}
+.calculator form input:hover{
+    background-color:rgb(240, 208, 213);
+}
+
+
+.display{
+display: flex;
+justify-content:flex-end ;
+margin: 20px 0;
+color:white;
+overflow-x: nowrap;
+width: 100%;  /* Make the input field take up full width */
+padding: 10px;  /* Add some padding for spacing */
+border: 2px solid white;  /* Add a border to make it stand out */
+border-radius: none ;
+
+}
+.display input{
+    text-align: right;
+    background: transparent;
+    font-size: 40px;
+    border-radius: none ;
+    
+    
+  
+}
+.operator{
+    background-color: orangered;
+}
+.operator1{
+    background-color: goldenrod;
+}
